@@ -1,0 +1,42 @@
+Written in the order of curriculum
+
+1. Count
+"cure_id" : [integer] , "cure_level" : [integer] , "cure_path" : path, "cure_word" : [character]
+
+**only level 1. set of 10 questions
+
+2. Common
+"com_id" : [integer], "com_level" : [integer], "com_w1" : [character] , "com_w2" : [character], "com_w3" : [character], "com_e1" : [character], "com_e2" : [character], "com_e3" : [character], "com_e4" : [character], "com_ans" : [character] , "com_w1path" :path, "com_w2path" : path, "com_w3path" : path, "com_e1path" : path, "com_e2path" : path, "com_e3path" : path, "com_e4path" : path
+ 
+**set of 10 questions
+
+3. vowelword
+"cure_id" : [integer], "cure_level" : [integer], "cure_path" : path, "cure_word" : [character]
+
+**Set of 10 questions
+
+4. vowelsound
+"cure_id" : [integer] , "cure_level" : [integer], "cure_path" : path, "cure_path2" : path, "cure_word" : [character], "cure_word2" : [character] , "answer" : [1 or 2]
+
+**if answer == 1, cure_word is an answer. If 2, cure_word2 is. Set of 10 questions
+
+5. consoword
+"cure_id" : [integer] , "cure_level" : [integer] , "cure_path" : path, "cure_word" : [character]
+
+** Set of 10 questions. But only 6 in level 1.
+
+6. consocommon
+"cure_id" : [integer], "cure_level" : [integer], "cure_word" : [character], "cure_word2" : [character], "cure_text" : [character]
+
+** Set of 10 questions
+
+7. consomatch
+cure: {"cure_id" : [integer] , "cure_level" : [integer], "cure_path" : path, "cure_path2" : path, "cure_word" : [character], "cure_tid" : integer}
+answer : {integer1, integer2, integer3, [integer of answer]}
+
+** match integers in answer with cure_tid of cure. 'Cure' includes all the character that we need to consist the set of questions. 'answer' includes set of 10 question sets
+
+8. consosound
+"cure_id" : [integer] , "cure_level" : [integer] , "cure_path" : path , "cure_word" : [character] ,"cure_word2" : [character]
+
+** cure_word is an answer.  Set of 10 questions. 

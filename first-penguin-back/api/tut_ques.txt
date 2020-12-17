@@ -1,0 +1,31 @@
+1. count
+tut_voice : {"voc_path" : path, "voc_script" : script,  "voc_desc" : description} *3
+sample_ques : {"cure_id" : 1916, "cure_level":1, "cure_path": "/treatment/03_count/text_0029_0001.mp3","cure_word":"쇠구슬"}
+
+2. common
+tut_voice : {"voc_path":path,"voc_script":script,"voc_desc":description} - 각 level별로 나갈 것.
+sample_ques : {"com_id" : [integer], "com_level": [integer],"com_w1":[character],"com_w2":[character],"com_w3":[character], "com_e1":[character], "com_e2":[character],"com_e3":[character],"com_e4":[character],"com_ans":[character], "com_w1path": path,"com_w2path":path,"com_w3path":path,"com_e1path":path,"com_e2path":path,"com_e3path":path,"com_e4path":path} - 각 level별로 나감
+
+3. vowelword
+tut_voice : { "voc_path":path, "voc_script": script , "voc_desc" : description} * 6
+sample_ques : {"cure_id":1948,"cure_level:1,"cure_word":"아아아아"}
+
+4. vowelsound
+tut_voice : { "voc_path":path, "voc_script": script , "voc_desc" : description} * 3
+sample_ques : {"cure_id: 2083, "cure_level" :1 , "cure_path" :"/treatment/06_vowelsound/text_01_0001_0002.mp3" ,"cure_path2":"/treatment/06_vowelsound/text_01_0001_0003.mp3","cure_word":"아","cure_word2":"어"}
+
+5. consomatch
+tut_voice : { "voc_path":path, "voc_script": script , "voc_desc" : description} * 3
+sample_ques : {"cure_id" : [integer],"cure_level":[integer],"cure_path":path,"cure_path2":path,"cure_word":[character"}*3 (가방,가위,개구리)
+
+6. consocommon
+tut_voice : { "voc_path":path, "voc_script": script , "voc_desc" : description} * 2
+sample_ques : {"cure_id" :2529, "cure_level":1, "cure_path" : "/words/1.가방.png", "cure_word":"ㄱ","cure_word2":"ㅂ","cure_text": "가방"}
+
+7.consoword
+tut_voice : { "voc_path":path, "voc_script": script , "voc_desc" : description} * 5
+sample_ques : "cure_id":2724, "cure_level":1,"cure_path" : "/treatment/09_consoword/text_01_0001_0001.mp3","cure_word":"강산"}
+
+8. consosound
+tut_voice : { "voc_path":path, "voc_script": script , "voc_desc" : description} * 3
+sample_ques : {"cure_id":3046, "cure_level": 1, "cure_path":"/treatment/10_consosound/text_01_0001_0001.mp3","cure_word":"뭐","cure_word2":"눠"}
